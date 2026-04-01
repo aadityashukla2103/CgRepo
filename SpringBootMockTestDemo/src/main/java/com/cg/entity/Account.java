@@ -16,6 +16,7 @@ public class Account {
 
 	public Account(Integer accountId, String custName, Double amt) {
 		super();
+		System.out.println("Constr done ");
 		this.accountId = accountId;
 		this.custName = custName;
 		this.amt = amt;
